@@ -1,0 +1,39 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="usertransactions">
+            <h2><span>Usertransactions</span> {{usertransactions.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span>From Quantity</span></dt>
+                <dd>
+                    <span>{{usertransactions.from_quantity}}</span>
+                </dd>
+                <dt><span>To Quantity</span></dt>
+                <dd>
+                    <span>{{usertransactions.toQuantity}}</span>
+                </dd>
+                <dt><span>Action</span></dt>
+                <dd>
+                    <span>{{usertransactions.action}}</span>
+                </dd>
+                <dt><span>User</span></dt>
+                <dd>
+                    {{usertransactions.userLogin}}
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/usertransactions', usertransactions.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

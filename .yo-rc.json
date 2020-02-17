@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.resortworld.moneychanger"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "monolith",
+    "baseName": "moneyChanger",
+    "packageName": "com.resortworld.moneychanger",
+    "packageFolder": "com/resortworld/moneychanger",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZmU1ZjViZTAxOWQzMjUyYmUwYWI5M2ZlZGYyYWYxOGNmNWYwOWVmNmU5YTY5ZGE5YTJiYmE2MDMwYTU0NjE0NTE3NGQ1ZDU3Mzg5NWZlZDQzNjg0OTAyZDllNDU2Yjk1YjRjYjJmNTI4YTI1NmIzNWM3N2Y2ZDMwYzEzNGU5MzM=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "lux",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1581913328793,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
